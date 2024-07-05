@@ -1,4 +1,5 @@
 🌿 Proyecto de Sustentabilidad 🌿
+
 🌳 Problema Identificado
 En nuestra comunidad hemos observado importantes limitaciones en cuanto al reciclaje y la sustentabilidad del medio ambiente. Además, se percibe un ahorro insuficiente de materiales.
 
