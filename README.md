@@ -1,4 +1,9 @@
-# Impacto-Social-CET
-🌳Identificamos como problematica en nuestra comunidad en las limitaciones del reciclaje y sustentabilidad en el medioambiente, ademas de el poco ahorro de materiales.
-🌿Este proyecto se basa en el publico joven (adolecentes y jovenes adultos), donde a través del desarrollo de una pagina web que contenga informacion sobre moda sostenible y otros recursos que puedan comprar y/o utilizar en su vida cotidiana.
-🌳Queremos generar comunidades que promuevan la importancia de actuar de modo sustentable y sostenibke en el tiempo como impacto social positivo.
+🌿 Proyecto de Sustentabilidad 🌿
+🌳 Problema Identificado
+En nuestra comunidad hemos observado importantes limitaciones en cuanto al reciclaje y la sustentabilidad del medio ambiente. Además, se percibe un ahorro insuficiente de materiales.
+
+🌿 Objetivo del Proyecto
+Este proyecto está dirigido al público joven (adolescentes y jóvenes adultos). Nuestro objetivo es desarrollar una página web que proporcione información sobre moda sostenible y otros recursos que puedan ser adquiridos y/o utilizados en la vida cotidiana.
+
+🌳 Nuestra Misión
+Queremos generar comunidades que promuevan la importancia de actuar de manera sustentable y sostenible en el tiempo, creando así un impacto social positivo.
