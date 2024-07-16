@@ -1,4 +1,7 @@
-#img-cet {
+#img-cet{
     height: 100px;
     width: 100px;
+}
+.subtitulo{
+    font-style: italic;
 }
