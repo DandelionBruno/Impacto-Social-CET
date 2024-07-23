@@ -1,7 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #B6D47F, #94FFD7);
+    padding: 20px;
+}
+
+/* PARTE DE ARRIBA DE LA PAGINA */
+
+#title-logo {
+    height: 70px;
+}
+
+.subtitle{
+    font-style: italic;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#top-container {
+    display: flex;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 180px;
+    padding: 0 20px;
+    margin: 0px 5px;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* PERFILES */
+
+#intro-container {
+    text-align: center;
+    margin: 10px 5px;
+    padding: 30px 0;
+
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#profiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.intro {
+    width: 30%;
+    
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.intro h4 {
+    margin: 20px;
+}
+
+
+/* FOOTER */
+
 #img-cet{
     height: 100px;
     width: 100px;
 }
-.subtitulo{
-    font-style: italic;
+
+footer {
+    margin: 20px -20px -20px -20px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
 }
