@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+@font-face {
+    font-family: "Gliker";
+    src: url(../Gliker-Regular.ttf);
+}
+
+#body {
+    background-color: #F1FCF1;
+}
+
+/* NAV */
+nav {
+    height: 100px;
+    background-color: #ffffff;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav img {
+    height: 50px;
+    max-width: 150px;
+}
+
+nav p {
+    margin: 0;
+}
+
+/* TITULO */
+#title {
+    width: 100%;
+    height: 80vh;
+    min-height: 700px;
+    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title h1 {
+    font-family: "Gliker", "Open Sans";
+    font-size: 70px;
+    color: #ffffff;
+}
+
+/* SOBRE NOSOTRAS Y ODS */
+#container {
+    display: flex;
+    height: 40vh;
+    min-height: 400px;
+}
+
+#about-us {
+    width: 50%;
+    background: linear-gradient(135deg, rgb(227, 255, 148, 0.4), rgb(182, 212, 127, 0.4), rgb(127, 212, 161, 0.4), rgb(148, 255, 215, 0.4));
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ods {
+    width: 50%;
+    background-color: #FAFCFC;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-us h2, #ods h2 {
+    font-family: "Gliker";
+    color: #135047;
+}
+
+/* CAROUSEL */
+#profiles {
+    height: 60vh;
+    min-height: 600px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#profiles h2 {
+    font-family: "Gliker";
+    color:#135047;
+    margin-top: 60px; 
+    margin-bottom: 40px;
+}
+
+#carousel {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PERFILES DENTRO DEL CAROUSEL*/
+.profile {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    border: 2px solid #135047;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+    object-fit: cover;
+}
+
+.profile h4 {
+    font-family: "Gliker";
+    color: #135047;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profile ul{
+    width: 70%;
+}
+
+/* DESCRIPCION CET */
+#cet {
+    margin-top: 60px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cet-container {
+    width: 80%;
+}
+
+#cet-container h2 {
+    font-family: "Gliker";
+    color: #135047;
+}
+
+#cet-container p {
+    text-align: justify;
+    margin: 0;
+}
+
+/* PIE DE PAGINA */
+footer {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background-color: #DBF6D9;
+
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    color: #135047;
+    margin: 0;
+}
