@@ -5,25 +5,33 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@font-face {
+    font-family: "Gliker";
+    src: url(../Gliker-Regular.ttf);
+}
+
 body {
-    background: linear-gradient(135deg, #B6D47F, #94FFD7);
+    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
     padding: 20px;
 }
 
 /* PARTE DE ARRIBA DE LA PAGINA */
 
 #title-logo {
-    height: 70px;
+    height: 60px;
 }
 
 .subtitle{
     font-style: italic;
-    color: white;
+    color:#135047;
+    margin: 0;
 }
 
-h2 {
+#title {
+    font-family: "Gliker";
+    color:#135047;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     padding: 20px;
 }
 
@@ -31,10 +39,10 @@ h2 {
     display: flex;
 }
 
-.container {
+#about-us, #cet {
     background-color: rgba(255, 255, 255, 0.4);
-    min-height: 180px;
-    padding: 0 20px;
+    min-height: 240px;
+    padding: 0 30px;
     margin: 0px 5px;
     width: 50%;
 
@@ -43,58 +51,107 @@ h2 {
     justify-content: center;
 }
 
-/* PERFILES */
+#about-us h3, #cet h3 {
+    font-family: "Gliker";
+    color: #135047;
+    font-size: 24px;
+}
+
+#about-us p, #cet p {
+    font-size: 18px;
+}
 
 #intro-container {
-    text-align: center;
-    margin: 10px 5px;
-    padding: 30px 0;
-
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
-#profiles {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.intro {
-    width: 30%;
-    
-    min-height: 400px;
-    margin: 20px;
-    padding: 20px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.intro img {
-    height: 150px;
-    border-radius: 50%;
+#intro-container h2 {
+    margin: 40px 0;
+    font-family: "Gliker";
+    color:#135047;
+
+    text-align: center;
 }
 
-.intro h4 {
-    margin: 20px;
+/* CAROUSEL */
+#profiles {
+    height: 60vh;
+    min-height: 600px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+#profiles h2 {
+    font-family: "Gliker";
+    color:#135047;
+    margin-top: 60px; 
+    margin-bottom: 40px;
+}
+
+#carousel {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PERFILES DENTRO DEL CAROUSEL*/
+.profile {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    border: 2px solid #135047;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+    object-fit: cover;
+}
+
+.profile h4 {
+    font-family: "Gliker";
+    color: #135047;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profile ul{
+    width: 70%;
+}
+
+
 
 
 /* FOOTER */
 
-#img-cet{
-    height: 100px;
-    width: 100px;
-}
-
 footer {
-    margin: 20px -20px -20px -20px;
+    margin: 60px -20px -20px -20px;
     height: 100px;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 0 20px;
     display: flex;
     align-items: center;
+}
+
+footer p {
+    margin: 0;
 }
