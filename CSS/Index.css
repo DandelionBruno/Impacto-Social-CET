@@ -35,6 +35,7 @@
     flex: 1;
     height: 150px;
     font-size: large;
+    margin: 20px;
 }
 .box-1{
     background: linear-gradient(135deg, rgb(227, 255, 148, 0.4), rgb(182, 212, 127, 0.4), rgb(127, 212, 161, 0.4), rgb(148, 255, 215, 0.4));
