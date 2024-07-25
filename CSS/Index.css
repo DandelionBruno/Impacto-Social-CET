@@ -50,7 +50,7 @@ main{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
+    background: linear-gradient(135deg, #7e973c, #B6D47F, #7FD4A1, #94FFD7);
 }
 
 #title{
