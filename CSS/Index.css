@@ -5,7 +5,11 @@
 }
 @font-face {
     font-family: "Gliker";
-    src: url(../images/Gliker-Regular.ttf);
+    src: url(../Gliker-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../OpenSans-VariableFont_wdth\,wght.ttf);
 }
 /* INICIO DE LA PAGINA */
 
@@ -14,8 +18,10 @@
     width: 150px;
 }
 
-.subtitulo{
+#subtitulo{
     font-style: italic;
+    font-family: "Open Sans";
+    padding: 0%;
 }
 
 .container{
@@ -25,13 +31,17 @@
 }
 .box-1,.box-2{
     padding: 20px;
-    text-align: center;
+    text-align: justify;
     flex: 1;
     height: 150px;
-    width: 150px;
+    font-size: large;
 }
 .box-1{
     background: linear-gradient(135deg, rgb(227, 255, 148, 0.4), rgb(182, 212, 127, 0.4), rgb(127, 212, 161, 0.4), rgb(148, 255, 215, 0.4));
+}
+
+.main-c{
+   padding: 0%;
 }
 /* PARTE PRINCIPAL DE LA PAGINA */
 
@@ -40,6 +50,14 @@ main{
     justify-content: space-between;
     width: 100%;
     background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
+}
+
+#title{
+    font-family: "Gliker";
+    font-size: xx-large;
+    text-align: center;
+    color: #083a27;
+    padding: 15px;
 }
 
 /* CAJA DEL CENTRO */
@@ -52,7 +70,7 @@ main{
 }
 
 .img-c{
-    width: 95%;
+    width: 70%;
 
 }
 
@@ -60,28 +78,32 @@ main{
     text-align: justify;
     width: 95%;
 }
-.title-center{
-    font-family: "Gliker";
+
+.submain2{
+font-family: "Open Sans";
+font-weight: bold;
+font-size: medium;
+}
+
+ul{
+    list-style-type: "♻️";
+    list-style-position: initial;
+}
+
+p{
+    padding: 20px;
+    color: #062621;
 }
 
 /* INDICE */
-#title-index {
-    text-align: center;
-    font-family: "Gliker";
-}
-
 .sidebar-l {
     padding: 20px;
     width: 20%;
 }
 
 /* COMUNIDAD */
-#title-community {
-    text-align: center;
-    font-family: "Gliker";
-}
-
 .sidebar-r {
+   padding: 20px;
     width: 20%;
 }
 

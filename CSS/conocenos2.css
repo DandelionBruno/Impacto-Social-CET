@@ -7,9 +7,12 @@
 
 @font-face {
     font-family: "Gliker";
-    src: url(../images/Gliker-Regular.ttf);
+    src: url(../Gliker-Regular.ttf);
 }
-
+@font-face {
+    font-family: "Open Sans";
+    src: url(../OpenSans-VariableFont_wdth\,wght.ttf);
+}
 #body {
     background-color: #F1FCF1;
 }
