@@ -11,7 +11,8 @@
     font-family: "Open Sans";
     src: url(../OpenSans-VariableFont_wdth\,wght.ttf);
 }
-/* INICIO DE LA PAGINA */
+
+/* NAV */
 
 #title-logo {
     height: 50px;
@@ -23,11 +24,53 @@
     font-family: "Open Sans";
     padding: 0%;
 }
+
+#top {
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio-sesion {
+    height: 50px;
+    width: 120px;
+
+    background: linear-gradient(135deg, #bbe250, #B6D47F, #7FD4A1, #94FFD7);
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.registrarse {
+    background: none;
+    border: none; 
+
+    color:#062621;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.registrarse:hover {
+    text-decoration: underline;
+}
+
+.inicio-sesion:hover {
+    color:#083a27;
+}
+
+/* INICIO DE LA PAGINA */
+
 .container{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
+
 .box-1,.box-2{
     padding: 20px;
     text-align: justify;
