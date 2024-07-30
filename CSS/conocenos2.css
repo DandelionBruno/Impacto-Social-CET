@@ -5,17 +5,20 @@
     font-family: "Open Sans";
 }
 
-@font-face {
-    font-family: "Gliker";
-    src: url(../Gliker-Regular.ttf);
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url(../OpenSans-VariableFont_wdth\,wght.ttf);
-}
 #body {
     background-color: #F1FCF1;
 }
+
+/* TIPOGRAFÍAS */
+@font-face {
+    font-family: "Gliker";
+    src: url(../fonts/Gliker-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 
 /* NAV */
 nav {

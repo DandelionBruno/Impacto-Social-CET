@@ -3,13 +3,15 @@
     margin: 0;
     font-family: "Open Sans";
 }
+
+/* TIPOGRAFÍAS */
 @font-face {
     font-family: "Gliker";
-    src: url(../Gliker-Regular.ttf);
+    src: url(../fonts/Gliker-Regular.ttf);
 }
 @font-face {
     font-family: "Open Sans";
-    src: url(../OpenSans-VariableFont_wdth\,wght.ttf);
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 /* NAV */
