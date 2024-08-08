@@ -44,7 +44,7 @@ nav p {
 #title {
     width: 100%;
     height: 60vh;
-    min-height: px;
+    min-height: 500px;
     background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
 
     display: flex;
