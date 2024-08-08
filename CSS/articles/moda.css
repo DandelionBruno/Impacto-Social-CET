@@ -2,8 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-    font-family: "Open Sans";
 }
 
 /* TIPOGRAFÍAS */
@@ -41,13 +39,16 @@ nav p {
     height: 60vh;
     background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
 
-    font-family: "Gliker";
-    font-size: 30px;
-    color: #ffffff;
-
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#top h1 {
+    font-family: "Gliker";
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* CONTENT */
@@ -59,10 +60,20 @@ nav p {
     width: 70%;
     margin: auto;
     padding: 40px 0;
+    
+    font-family: "Open Sans";
 }
 
-#content h2, #content h3 {
+#content h2 {
     font-family: "Gliker";
+    font-size: 26px;
+    color: #135047;
+    padding: 20px 0;
+}
+
+#content h3 {
+    font-family: "Gliker";
+    font-size: 22px;
     color: #135047;
     padding: 20px 0;
 }
