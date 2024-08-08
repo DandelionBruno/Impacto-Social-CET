@@ -84,6 +84,13 @@ nav p {
 
 }
 
+#content ul {
+    margin-left: 30px;
+
+    list-style-type: "♻️";
+    list-style-position: initial;
+}
+
 /* FOOTER */
 footer {
     width: 100%;
