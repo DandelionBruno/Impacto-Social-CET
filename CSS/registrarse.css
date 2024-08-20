@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+/* TIPOGRAFÍAS */
+@font-face {
+    font-family: "Gliker";
+    src: url(../fonts/Gliker-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+#title-logo {
+    height: 50px;
+    width: 150px;
+}
+#subtitulo{
+    font-style: italic;
+    font-family: "Open Sans";
+    padding: 0%;
+}
