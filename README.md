@@ -8,6 +8,7 @@
 
 
 JAVASCRIPT
+
 👩‍💻​Cuando se clickea el botón "Inicio de sesión" nos lleva a una página con botones interactivos para rellenar con nuestros datos.
 
 👩‍💻​Cuando se clickea el botón "registrarse" se abre una página que contiene un formulario con especificaciones a rellenar que son: "Nombre", "Email", "Años", "¿Cuánto sabes sobre el reciclaje?" y en forma de múltiple choice: " ¿Ya tenes una cuenta? (Si/No)".
