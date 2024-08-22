@@ -40,21 +40,21 @@
 .inicio-sesion {
     height: 50px;
     width: 120px;
-
     background: linear-gradient(135deg, #bbe250, #B6D47F, #7FD4A1, #94FFD7);
     border: none;
     border-radius: 50px;
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .registrarse {
     background: none;
     border: none; 
-
     color:#062621;
     font-weight: bold;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .registrarse:hover {
@@ -66,6 +66,7 @@
 }
 
 /* INICIO DE LA PAGINA */
+
 
 .container{
     display: flex;
@@ -111,7 +112,7 @@ main{
 }
 
 /* CAJA DEL CENTRO */
-#center {
+#center{
     width: 60%;
     padding: 20px;
     display: flex;
@@ -214,6 +215,12 @@ p{
     width: 20%;
     background-color: #d6f2a361; border-radius: 40px;
     margin: 10px;
+}
+ul{
+    margin-left: 15px;
+    list-style-type: "♻️";
+    list-style-position: initial;
+    text-decoration: none;
 }
 
 /* COMUNIDAD */
