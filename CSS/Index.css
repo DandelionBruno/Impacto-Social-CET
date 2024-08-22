@@ -107,7 +107,7 @@ main{
     font-family: "Gliker";
     font-size: xx-large;
     text-align: center;
-    color: #083a27;
+    color: #042716;
     padding: 15px;
 }
 
@@ -175,6 +175,7 @@ main{
 
 .post-body h2{
     margin-bottom: 0px;
+    color: #062621;
 }
 
 .post-body p{
