@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: "Gliker";
+    src: url(../images/Gliker-Regular.ttf);
+}
+
+body {
+    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
+    padding: 20px;
+}
+
+/* PARTE DE ARRIBA DE LA PAGINA */
+
+#logo {
+    height: 50px;
+    width: 150px;
+}
+
+.subtitle{
+    font-style: italic;
+    color:#135047;
+    margin: 0;
+}
