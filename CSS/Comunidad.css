@@ -16,9 +16,23 @@
 
 /* NAV */
 
-#title-logo {
+nav {
+    height: 100px;
+    background-color: #ffffff;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav img {
     height: 50px;
-    width: 150px;
+    max-width: 150px;
+}
+
+nav p {
+    margin: 0;
 }
 
 #subtitulo{

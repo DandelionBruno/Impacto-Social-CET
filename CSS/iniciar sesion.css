@@ -14,10 +14,25 @@
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-#title-logo {
-    height: 50px;
-    width: 150px;
+nav {
+    height: 100px;
+    background-color: #ffffff;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+nav img {
+    height: 50px;
+    max-width: 150px;
+}
+
+nav p {
+    margin: 0;
+}
+
 #subtitulo{
     font-style: italic;
     font-family: "Open Sans";
