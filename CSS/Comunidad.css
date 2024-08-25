@@ -1,29 +1,68 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans";
 }
 
+/* TIPOGRAFÍAS */
 @font-face {
     font-family: "Gliker";
-    src: url(../images/Gliker-Regular.ttf);
+    src: url(../fonts/Gliker-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-body {
-    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
-    padding: 20px;
-}
+/* NAV */
 
-/* PARTE DE ARRIBA DE LA PAGINA */
-
-#logo {
+#title-logo {
     height: 50px;
     width: 150px;
 }
 
-.subtitle{
+#subtitulo{
     font-style: italic;
-    color:#135047;
-    margin: 0;
+    font-family: "Open Sans";
+    padding: 0%;
 }
+
+#top {
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio-sesion {
+    height: 50px;
+    width: 120px;
+    background: linear-gradient(135deg, #bbe250, #B6D47F, #7FD4A1, #94FFD7);
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.registrarse {
+    background: none;
+    border: none; 
+    color:#062621;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.registrarse:hover {
+    text-decoration: underline;
+}
+
+.inicio-sesion:hover {
+    color:#083a27;
+}
+
+
