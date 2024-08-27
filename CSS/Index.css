@@ -51,18 +51,18 @@
 .registrarse {
     background: none;
     border: none; 
-    color:#062621;
     font-weight: bold;
     font-size: 14px;
+}
+
+.inicio-sesion a, .registrarse a {
+    color: #135047;
     text-decoration: none;
 }
 
-.registrarse:hover {
-    text-decoration: underline;
-}
-
-.inicio-sesion:hover {
-    color:#083a27;
+.inicio-sesion a:hover, .registrarse a:hover {
+    color: rgb(23, 118, 106);
+    text-decoration: none;
 }
 
 /* INICIO DE LA PAGINA */
@@ -107,7 +107,7 @@ main{
     font-family: "Gliker";
     font-size: xx-large;
     text-align: center;
-    color: #042716;
+    color: #135047;
     padding: 15px;
 }
 
@@ -192,7 +192,7 @@ main{
 
 .post-body h2{
     margin-bottom: 0px;
-    color: #062621;
+    color: #135047;
 }
 
 .post-body p{
@@ -223,7 +223,7 @@ font-size: medium;
 
 p{
     padding: 20px;
-    color: #062621;
+    color: #135047;
     font-family: "Open Sans";
 }
 
@@ -238,6 +238,16 @@ ul{
     margin-left: 15px;
     list-style-type: "♻️";
     list-style-position: initial;
+    text-decoration: none;
+}
+
+.sidebar-l ul a {
+    color: #135047;
+    text-decoration: none;
+}
+
+.sidebar-l ul a:hover{
+    color: rgb(23, 118, 106);
     text-decoration: none;
 }
 
