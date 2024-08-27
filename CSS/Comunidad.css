@@ -41,6 +41,7 @@
 .inicio-sesion {
     height: 50px;
     width: 120px;
+    margin-right: 10px;
     background: linear-gradient(135deg, #bbe250, #B6D47F, #7FD4A1, #94FFD7);
     border: none;
     border-radius: 50px;
@@ -84,7 +85,7 @@ main{
 .titulo{
     font-family: "Gliker";
     text-align: center;
-    color: #042716;
+    color: #135047;
     padding: 15px;
 }
 
