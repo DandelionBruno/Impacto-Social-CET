@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: "Open Sans";
 }
 
@@ -16,23 +17,9 @@
 
 /* NAV */
 
-nav {
-    height: 100px;
-    background-color: #ffffff;
-    padding: 0 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-nav img {
+#title-logo {
     height: 50px;
-    max-width: 150px;
-}
-
-nav p {
-    margin: 0;
+    width: 150px;
 }
 
 #subtitulo{
@@ -59,24 +46,23 @@ nav p {
     border-radius: 50px;
     font-size: 14px;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .registrarse {
     background: none;
     border: none; 
-    color:#062621;
     font-weight: bold;
     font-size: 14px;
+}
+
+.inicio-sesion a, .registrarse a {
+    color: #135047;
     text-decoration: none;
 }
 
-.registrarse:hover {
-    text-decoration: underline;
-}
-
-.inicio-sesion:hover {
-    color:#083a27;
+.inicio-sesion a:hover, .registrarse a:hover {
+    color: rgb(23, 118, 106);
+    text-decoration: none;
 }
 
 /* container */
