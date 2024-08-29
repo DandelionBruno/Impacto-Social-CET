@@ -162,7 +162,6 @@ p{
     width: 90%;
     height: 40px;
     padding: 0 10px;
-
     border-radius: 50px;
     border: 1px solid #135047;
     outline: none;
@@ -171,7 +170,9 @@ p{
 .comment button {
     width: 40px;
     height: 40px;
-
+    background: url(../images/send.jpg);
+    background-size: cover;
+    background-position: center;
     border: 1px solid #135047;
     border-radius: 50%;
 }
