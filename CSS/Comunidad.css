@@ -163,7 +163,7 @@ p{
     height: 40px;
     padding: 0 10px;
     border-radius: 50px;
-    border: 1px solid #135047;
+    border: 1px solid #238274;
     outline: none;
 }
 
@@ -173,7 +173,7 @@ p{
     background: url(../images/send.jpg);
     background-size: cover;
     background-position: center;
-    border: 1px solid #135047;
+    border: 1px solid #238274;
     border-radius: 50%;
 }
 
