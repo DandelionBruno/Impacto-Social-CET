@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+/* TIPOGRAFÍAS */
+@font-face {
+    font-family: "Gliker";
+    src: url(../fonts/Gliker-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+/* NAV */
+
+nav {
+    height: 100px;
+    background-color: #ffffff;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav img {
+    height: 50px;
+    max-width: 150px;
+}
+
+nav p {
+    margin: 0;
+}
+
+#subtitulo{
+    font-style: italic;
+    font-family: "Open Sans";
+    padding: 0%;
+}
+
+#top {
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio-sesion {
+    height: 50px;
+    width: 120px;
+    background: linear-gradient(135deg, #bbe250, #B6D47F, #7FD4A1, #94FFD7);
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.registrarse {
+    background: none;
+    border: none; 
+    color:#062621;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.registrarse:hover {
+    text-decoration: underline;
+}
+
+.inicio-sesion:hover {
+    color:#083a27;
+}
+
+/* container */
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(135deg, #bbe250, #B6D47F, #7FD4A1, #94FFD7);
+}
+/* home left */
+
+/* home center */
+.titulo{
+    font-family: "Gliker";
+    text-align: center;
+    color: #042716;
+    padding: 15px;
+}
+
+.img-usuario{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    margin-right: 10px;
+    border: 2px solid #0e6509e0;
+}
+
+.nombre-usuario{
+    font-weight: bolder;
+    font-family: "Open Sans";
+    font-size: medium;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.publicacion{
+    padding: 30px;
+    width: auto;
+    background-color: #dff6b47f; border-radius: 40px;
+    margin: 10px;
+}
+
+p{
+    padding-top: 10px;
+    font-family: "Open Sans";
+}
+
