@@ -1,7 +1,18 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: "Open Sans";
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* TIPOGRAFÍAS */
@@ -14,27 +25,120 @@
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-nav {
-    height: 100px;
-    background-color: #ffffff;
-    padding: 0 20px;
+/* NAV MENU */
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-nav img {
+#title-logo {
     height: 50px;
-    max-width: 150px;
-}
-
-nav p {
-    margin: 0;
+    width: 150px;
 }
 
 #subtitulo{
     font-style: italic;
     font-family: "Open Sans";
     padding: 0%;
+}
+
+#top {
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FORMULARIO */
+
+#form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario {
+    height: 400px;
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff93;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario h1 {
+    color: #135047;
+    font-family: "Gliker";
+    text-align: center;
+}
+
+#formulario div, #formulario p, #formulario button {
+    margin-bottom: 10px;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.username, .password {
+    width: 100%;
+}
+
+#formulario input {
+    width: 100%;
+    height: 28px;
+    margin: 5px 0;
+    padding: 5px;
+
+    border: none;
+    border-bottom: 1px solid #135047;
+    outline: none;
+}
+
+#formulario button {
+    width: 55%;
+    height: 40px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
+    border: 1px solid #13504782;
+    border-radius: 50px;
+
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#formulario a {
+    color: #135047;
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background-color: #ffffff;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    color: #135047;
+    margin: 0;
 }
