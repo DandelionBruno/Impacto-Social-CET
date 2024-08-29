@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: "Open Sans";
-}
+
 /*agrego alineación*/
 body {
     height: 100vh;
@@ -93,6 +89,12 @@ nav p {
     color: #135047;
     font-family: "Gliker";
     text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Open Sans";
 }
 
 #formulario div, #formulario p, #formulario button {
