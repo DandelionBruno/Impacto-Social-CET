@@ -240,6 +240,10 @@ ul{
     text-decoration: none;
     font-size: large;
     font-weight: bolder;
+    background-color: #ffffff52;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 
 .sidebar-l ul a {
