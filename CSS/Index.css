@@ -107,7 +107,7 @@ main{
     font-family: "Gliker";
     font-size: xx-large;
     text-align: center;
-    color: #135047;
+    color: #0c3b34;
     padding: 15px;
 }
 
@@ -235,10 +235,11 @@ p{
     margin: 10px;
 }
 ul{
-    margin-left: 15px;
     list-style-type: "♻️";
     list-style-position: initial;
     text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .sidebar-l ul a {
@@ -257,6 +258,33 @@ ul{
     width: 20%;
     background-color: #d6f2a361; border-radius: 40px;
     margin: 10px;
+}
+
+.publicacion{
+background-color: #ffffff52;
+border-radius: 20px;
+padding: 10px;
+}
+
+.nombre-usuario{
+    font-weight: bold;
+    padding: auto;
+    padding-bottom: 5px;
+}
+
+.publicacion p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+h6{
+    color: #135047;
+
 }
 
 /* FOOTER */
