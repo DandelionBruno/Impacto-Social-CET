@@ -23,6 +23,12 @@ body {
     font-family: "Open Sans";
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+/*NAV */
+
+#title-logo {
+    height: 50px;
+    width: 150px;
+}
 
 nav {
     height: 100px;
@@ -47,6 +53,19 @@ nav p {
     font-style: italic;
     font-family: "Open Sans";
     padding: 0%;
+}
+
+#top {
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* FORMULARIO */
