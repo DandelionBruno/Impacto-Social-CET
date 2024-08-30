@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
 
-/*agrego alineación*/
 body {
     height: 100vh;
     background: linear-gradient(135deg, #E3FF94, #B6D47F, #7FD4A1, #94FFD7);
@@ -9,112 +14,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-/*intento de imitación de estilo como el de inicio sesión*/
-
-.formulario{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: traslate(-50%, -50%);
-      width: 400px;
-      background: white;
-      border-radius: 10px;
-}
-
-.formulario h1 {
-    text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
-}
-
-.formulario form{
-     padding: 0 40px;
-     box-sizing:border-box;
-}
-
-form .username {
-    position: relative;
-    border-bottom: 2px solid #adadad;
-    margin: 30px 0;
-}
-
-.username input{
-    width: 100%;
-    padding: 0 5px;
-    height: 40px;
-    font-size: 16px;
-    border: none;
-    background: none;
-    outline: none;
-}
-.username label{
-       position: absolute;
-       top: 50%;
-       left: 5px;
-       color:#adadad;
-       transform:translateY(-50%);
-       font-size: 16px;
-       pointer-events: none;
-       transition: .5s;
-    }
-
-    .username span::before{
-            content:'';
-            position: absolute;
-            top: 40px;
-            left: 0;
-            width: 0%;
-            height: 2px;
-            background: #6C3483;
-            transition: .5s;
-    }
-    
-    .username input:focus ~ label,
-    .username input:focus ~ label{
-                  top: -5px;
-                  color:black
-    }
-    .mail input {
-        width: 100%;
-        padding: 0 5px;
-        height: 40px;
-        font-size: 16px;
-        border: none;
-        background: none;
-        outline: none;
-    }
-        .password input {
-            width: 100%;
-            padding: 0 5px;
-            height: 40px;
-            font-size: 16px;
-            border: none;
-            background: none;
-            outline: none;
-        }
-
-     input¨[type="submit"]{
-           width: 100%;
-           height: 50px;
-           border: 1px solid;
-           background: #6C3483;
-           border-radius: 25px;
-           font-size: 18px;
-           color: white;
-           cursor:pointer;
-           outline: none;
-     }
-     input¨[type="submit"]:hover{
-                  border-color:purple;
-                  transition: .5s;
-
-
-     }
-     .username input:focus ~ span::before,
-     .username input:focus ~ span::before{
-                            width: 100%
-
-     }
 
 /* TIPOGRAFÍAS */
 @font-face {
@@ -125,30 +24,12 @@ form .username {
     font-family: "Open Sans";
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+
 /*NAV */
 
 #title-logo {
     height: 50px;
     width: 150px;
-}
-
-nav {
-    height: 100px;
-    background-color: #ffffff;
-    padding: 0 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-nav img {
-    height: 50px;
-    max-width: 150px;
-}
-
-nav p {
-    margin: 0;
 }
 
 #subtitulo{
@@ -172,16 +53,16 @@ nav p {
 
 /* FORMULARIO */
 
-#form-container {
+.form-container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#formulario {
-    height: 400px;
-    width: 30%;
+.formulario {
+    min-height: 500px;
+    width: 35%;
     padding: 20px;
     background-color: #ffffff93;
 
@@ -191,34 +72,31 @@ nav p {
     align-items: center;
 }
 
-#formulario h1 {
+.formulario h1 {
     color: #135047;
     font-family: "Gliker";
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: "Open Sans";
-}
-
-#formulario div, #formulario p, #formulario button {
+.formulario div, #formulario p, #formulario button {
     margin-bottom: 10px;
 }
 
-#formulario form {
+.formulario form {
+    width: 100%;
+    padding: 20px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.username, .password {
+.username, .password, .mail {
     width: 100%;
 }
 
-#formulario input {
+.formulario input {
     width: 100%;
     height: 28px;
     margin: 5px 0;
@@ -229,7 +107,7 @@ nav p {
     outline: none;
 }
 
-#formulario button {
+.formulario button {
     width: 55%;
     height: 40px;
     margin-bottom: 20px;
@@ -242,9 +120,9 @@ nav p {
     font-weight: bold;
 }
 
-#formulario a {
+.formulario a {
     color: #135047;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 

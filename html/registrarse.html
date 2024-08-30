@@ -8,38 +8,39 @@
     <body>
         <div id="top">
             <div id="logo">
-                <nav>
-                    <a href="Index.html">
-                      <img src="../images/logo.png"/>
-                    </a>
-                    <p>"Dandole color al reciclaje"</p>
-                  </nav>
+                <a href="Index.html">
+                    <img src="../images/logo.png" id="title-logo"/>
+                </a>
+                <p id="subtitulo">"Dandole color al reciclaje"</p>
             </div>
         </div>
-        <div class="formulario">
-            <h1>Registrate</h1>
-            <form>
-                <div class="username">
-                    <label>Nombre de Usuario</label> <br>
-                    <input type="text" required>
-                </div>
-                <div class="mail">
-                    <label>Email</label> <br>
-                    <input type="email" required>
-                </div>
-                <div class="password">
-                    <label>Contraseña</label> <br>
-                    <input type="password" required>
-                </div>
-                <div class="password">
-                    <label>Confirmar contraseña</label> <br>
-                    <input type="password" required>
-                </div>
-                <br>
+        
+        <div class="form-container">
+            <div class="formulario">
+                <h1>Registrate</h1>
+                <form>
+                    <div class="username">
+                        <label>Nombre de Usuario</label> <br>
+                        <input type="text" required>
+                    </div>
+                    <div class="mail">
+                        <label>Email</label> <br>
+                        <input type="email" required>
+                    </div>
+                    <div class="password">
+                        <label>Contraseña</label> <br>
+                        <input type="password" required>
+                    </div>
+                    <div class="password">
+                        <label>Confirmar contraseña</label> <br>
+                        <input type="password" required>
+                    </div>
+                </form>
                 <button><a href="../html/iniciar sesion.html">Registrarse</a></button> <!-- agregar restricciones si no rellena el formulario (no puede iniciar si no rellenó el formulario)-->
-                <p>¿Ya tienes una cuenta? <a href="../html/iniciar sesion.html">Iniciar Sesión</a></p>
-            </form>
+                    <p>¿Ya tienes una cuenta? <a href="../html/iniciar sesion.html">Iniciar Sesión</a></p>
+            </div>
         </div>
+        
     </body>
     <footer>
         <p>Proyecto CET - 2024</p>
