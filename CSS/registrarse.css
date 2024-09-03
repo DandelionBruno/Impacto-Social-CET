@@ -61,7 +61,7 @@ body {
 }
 
 .formulario {
-    min-height: 500px;
+    height: 500px;
     width: 35%;
     padding: 20px;
     background-color: #ffffff93;
@@ -85,7 +85,6 @@ body {
 .formulario form {
     width: 100%;
     padding: 20px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
